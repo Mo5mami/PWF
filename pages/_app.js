@@ -56,27 +56,24 @@ function MyApp({ router , Component, pageProps }) {
     
     
     <footer id="footer">
-    <div class="container">
+    <div className="container">
       <h3>Mokhtar Mami</h3>
       
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      <div className="social-links">
+        <a href="https://github.com/Mo5mami" className="github"><i className="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/mokhtar-mami/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
       </div>
-      <div class="copyright">
+      <div className="copyright">
         &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
       </div>
-      <div class="credits">
+      <div className="credits">
          <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer>
     
     <div id="preloader"></div>
-      <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>  
+      <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i classNameName="bi bi-arrow-up-short"></i></a>  
       <script src="assets/vendor/aos/aos.js"></script>
       <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>

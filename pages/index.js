@@ -18,7 +18,7 @@ export default function Home() {
   <main id="main">
 
     <About></About>
-    <Resume></Resume>
+    {/*<Resume></Resume>*/}
     <Projects></Projects>
     <Contact></Contact>
     
