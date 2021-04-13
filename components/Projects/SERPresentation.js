@@ -20,23 +20,19 @@ function SERPresentation() {
                              to detect the embedded emotions.
                     </em></p>
                 <p><em>
-                In this project, I finetuned an object detection model on TACO &nbsp;
-                <a href="http://tacodataset.org/"> 
-                <i className="bi bi-eye"></i> </a>
-                : an open image dataset
-                Containing annotations
+                In this project, I trained a 1D CNN based model from 7 features extracted
+                from audio on 4 datasets 
                   </em></p>
               <ul>
-                <li><strong> Framework : </strong>detectron2  &nbsp;
+                <li><strong> Framework/Library : </strong>Tensorflow  &nbsp;
                 <a href="https://github.com/facebookresearch/detectron2"> 
                 <i className="bi bi-eye"></i> </a> </li>
-                <li><strong> Model : </strong> R101-FPN</li>
-                <li><strong> AP@50 : </strong> 30.71</li>
-                <li><strong> Serving Tool : </strong> TorchServe &nbsp;
-                <a href="https://pytorch.org/serve/"> 
-                <i className="bi bi-eye"></i> </a> </li>
+                <li><strong> Model : </strong> 1D CNN + TimeDistributed layer</li>
+                <li><strong> Accuracy : </strong> 70%</li>
+                
               </ul>
-              <button type="button" class="btn btn-outline-myinfo">Test It Out</button>
+              <button type="button" class="btn btn-outline-myinfo m-1">View Article</button>
+              <button type="button" class="btn btn-outline-myinfo m-1">View Repo</button>
             </div>
             </div>
             <div className="col-lg-6 my-auto">
