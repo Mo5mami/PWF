@@ -25,19 +25,19 @@ function SERPresentation() {
                   </em></p>
               <ul>
                 <li><strong> Framework/Library : </strong>Tensorflow  &nbsp;
-                <a href="https://github.com/facebookresearch/detectron2"> 
+                <a href="https://www.tensorflow.org/"> 
                 <i className="bi bi-eye"></i> </a> </li>
                 <li><strong> Model : </strong> 1D CNN + TimeDistributed layer</li>
                 <li><strong> Accuracy : </strong> 70%</li>
                 
               </ul>
-              <button type="button" class="btn btn-outline-myinfo m-1">View Article</button>
-              <button type="button" class="btn btn-outline-myinfo m-1">View Repo</button>
+              <a href="https://data-colab-tn.medium.com/speech-emotion-recognition-f4b45f3fbfa5" type="button" class="btn btn-outline-myinfo m-1">View Article</a>
+              <a href="https://github.com/Mo5mami/SER" type="button" class="btn btn-outline-myinfo m-1">View Repo</a>
             </div>
             </div>
             <div className="col-lg-6 my-auto">
               <div className="d-flex justify-content-center">
-            <img src="assets/img/trash_detection.png" className="rounded img-fluid" alt="" />
+            <img src="assets/img/SER.jpg" className="rounded img-fluid" alt="" />
             </div>
             </div>
             </div>
