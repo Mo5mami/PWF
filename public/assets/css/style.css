@@ -1191,3 +1191,13 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.btn-outline-myinfo {
+  color: #0563bb;
+  border-color: #0563bb;
+}
+.btn-outline-myinfo:hover {
+  color: #fff;
+  background-color: #0563bb;
+  border-color: #0563bb;
+}
