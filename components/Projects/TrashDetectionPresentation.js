@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function TrashDetectionPresentation() {
     return (
@@ -30,7 +31,9 @@ function TrashDetectionPresentation() {
                 <a href="https://pytorch.org/serve/"> 
                 <i className="bi bi-eye"></i> </a> </li>
               </ul>
-              <button type="button" class="btn btn-outline-myinfo">Test It Out</button>
+              <Link href="/trash-detection">
+                <a type="button" class="btn btn-outline-myinfo">Test It Out</a>
+              </Link>
             </div>
             </div>
             <div className="col-lg-6">

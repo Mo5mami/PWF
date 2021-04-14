@@ -24,21 +24,23 @@ function About() {
         </div>
 
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
             <img src="assets/img/profile.png" className="rounded img-fluid" alt="" />
           </div>
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>More about me &amp; My background.</h3>
-            <p className="fst-italic mt-4">
+          <div className="col-lg-6 pt-4 pt-lg-0 my-auto content">
+            <h3 className="mt-2">More about me &amp; My background.</h3>
+            <p className="fst-italic mt-1">
               A Software engineering student that has been working in ML 
-              and especially DL for the past 2 years. <br></br>
+              and especially DL for the past 2 years. 
+              </p>
+              <p className="fst-italic mt-1">
               I always inspire to learn more and to push myself to my limits 
               Mainly worked on computer vision (2D and 3D data), ML combined 
               with audio data and some NLP tasks.
 
             </p>
-            <div className="row mt-5">
-              <div className="col-lg-6">
+            <div className="row mt-1">
+              <div className="col-lg-12">
                 <ul>
                   <li><i className="bi bi-chevron-right"></i> <strong>Address:</strong> <span>Farhat Hached Street 8050 Hammamet</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>mami.mokhtar123@gmail.com</span></li>
