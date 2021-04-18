@@ -72,7 +72,7 @@ function MyApp({ router , Component, pageProps }) {
     </div>
   </footer>
     
-    <div id="preloader"></div>
+    
       <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>  
       <script src="assets/vendor/aos/aos.js"></script>
       <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
