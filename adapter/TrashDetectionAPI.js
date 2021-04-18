@@ -1,13 +1,14 @@
 import axios from 'axios';
-const DEV_URL = 'http://127.0.0.1:8000/api/MG3/';
+import { config } from '../settings/Constants'
 
 class TrashDetectionAPI {
-    sendImage(image,API_URL=DEV_URL){
-        const url = `${API_URL}`;
+    sendImage(image,API_URL=config.url.TRASH_DETECTION_URL){
+        const url = `${API_URL}/trash-detection/inference/`;
         //console.log("aPI to send : ",url)
         //return axios.post(url,image);
         return axios({url:url,method:"post", 
-        config: { headers: { 'Content-Type': 'multipart/form_data' } },
+        config: { headers: { 'Content-Type': 'multipart/form_data' ,  } },
+        //data:{"image" : image}});
         data:image});
     }
 }

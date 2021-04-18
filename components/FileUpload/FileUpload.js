@@ -56,7 +56,7 @@ function FileUpload() {
             function (error) {
               setstate({...state,APIError:true,download:false})
                 handleClose()
-                console.log("API error")
+                console.log("API error : ",error)
                 
               
             }

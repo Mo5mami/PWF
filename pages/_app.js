@@ -86,6 +86,7 @@ function MyApp({ router , Component, pageProps }) {
     
       
       <script src="assets/js/main.js"></script>
+      {/*<script src="assets/js/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>*/}
     
     
     
