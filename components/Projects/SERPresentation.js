@@ -31,8 +31,8 @@ function SERPresentation() {
                 <li><strong> Accuracy : </strong> 70%</li>
                 
               </ul>
-              <a href="https://data-colab-tn.medium.com/speech-emotion-recognition-f4b45f3fbfa5" type="button" class="btn btn-outline-myinfo m-1">View Article</a>
-              <a href="https://github.com/Mo5mami/SER" type="button" class="btn btn-outline-myinfo m-1">View Repo</a>
+              <a href="https://data-colab-tn.medium.com/speech-emotion-recognition-f4b45f3fbfa5" type="button" className="btn btn-outline-myinfo m-1">View Article</a>
+              <a href="https://github.com/Mo5mami/SER" type="button" className="btn btn-outline-myinfo m-1">View Repo</a>
             </div>
             </div>
             <div className="col-lg-6 my-auto">

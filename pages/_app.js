@@ -80,7 +80,9 @@ function MyApp({ router , Component, pageProps }) {
       <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
       <script src="assets/vendor/php-email-form/validate.js"></script>
       <script src="assets/vendor/purecounter/purecounter.js"></script>
-      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      {/*<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>*/}
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      
       <script src="assets/vendor/typed.js/typed.min.js"></script>
       <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     
