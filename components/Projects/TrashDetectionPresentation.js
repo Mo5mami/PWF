@@ -32,7 +32,7 @@ function TrashDetectionPresentation() {
                 <i className="bi bi-eye"></i> </a> </li>
               </ul>
               <Link href="/trash-detection">
-                <a type="button" class="btn btn-outline-myinfo">Test It Out</a>
+                <a target="_blank" type="button" class="btn btn-outline-myinfo">Test It Out</a>
               </Link>
             </div>
             </div>

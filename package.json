@@ -2,6 +2,7 @@
   "name": "pwf",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://mo5mami.github.io/PW",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,5 +19,8 @@
     "react-image-annotate": "^1.8.0",
     "react-toast-notifications": "^2.4.3",
     "react-toastify": "^7.0.3"
+  },
+  "devDependencies": {
+   
   }
 }
