@@ -72,7 +72,7 @@ function MyApp({ router , Component, pageProps }) {
     </div>
   </footer>
     
-    <div id="preloader">
+    
       <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>  
       <script src="assets/vendor/aos/aos.js"></script>
       <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -86,8 +86,8 @@ function MyApp({ router , Component, pageProps }) {
       <script src="assets/vendor/typed.js/typed.min.js"></script>
       <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     
-      </div>
       
+
       <script src="assets/js/main.js"></script>
       {/*<script src="assets/js/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>*/}
     
