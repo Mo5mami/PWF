@@ -28,12 +28,6 @@ function Contact() {
                 <p>mami.mokhtar123@gmail.com</p>
               </div>
 
-              {/*<div className="phone">
-                <i className="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-                </div>*/}
-
             </div>
 
           </div>

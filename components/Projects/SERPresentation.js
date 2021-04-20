@@ -10,10 +10,7 @@ function SERPresentation() {
               <h4>Detect a person emotion through an audio clip</h4>
               <p><em>
               Speech is the most natural way of expressing ourselves as humans.
-                It is only natural then to extend this communication medium to computer applications.
-
-                            
-                
+                It is only natural then to extend this communication medium to computer applications.             
                 </em></p>
                 <p><em>
                 We define speech emotion recognition (SER) systems as a collection of methodologies that process and classify speech signals

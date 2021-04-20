@@ -9,14 +9,6 @@ function About() {
         <div className="section-title">
           <h2>About</h2>
           <p>
-          {/*The idea came from the fact that I'm originally a software engineering student.<br></br>
-          I always tried to train models to get better results, but I also always neglected
-          Deployment. <br></br>
-          Models inside github repos aren't really the final delivrable that should be
-          presented. A project is done once everything is in PRODUCTION
-          <br></br>
-               That's why I decided to create my personal website to get my work to production.
-    Happy browsing.*/}
           This is Mokhtar Mami's Personal Website <br></br>
           The <b>main</b> aim of this web app is to deliver projects to PRODUCTION <br></br>
           Happy browsing
