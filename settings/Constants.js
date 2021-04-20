@@ -1,7 +1,7 @@
 
 const prod = {
     url: {
-     TRASH_DETECTION_URL : "http://127.0.0.1:8000",
+     TRASH_DETECTION_URL : "https://personalwebsiteback.herokuapp.com",
      
    }
 }
