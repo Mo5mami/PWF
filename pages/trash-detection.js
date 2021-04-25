@@ -13,6 +13,7 @@ const initialState =
   obj_mesh:null,
   upload:false,
   download:false,
+  waiting:false,
   APIError : false,
 }
 const api=new TrashDetectionAPI()
@@ -39,18 +40,18 @@ function TrashDetection() {
         handleOpen()
         const data = new FormData() 
         data.append('file', state.originalFile)
-       
+        setstate({...state,waiting:true })
         api.sendImage(data)
         .then(res => { 
             const blob = new Blob([Buffer.from(res.data["image"], 'base64')]);
             setstate({...state,APIError:false,download:true,
                     predictedFile:blob,boxes:res.data["boxes"],
-                    upload : false })
+                    upload : false , waiting:false })
             handleClose()
             
         }).catch(
             function (error) {
-              setstate({...state,APIError:true,download:false, upload:false})
+              setstate({...state,APIError:true,download:false, upload:false,waiting:false})
                 handleClose()
                 if (error.response) {
                     console.log(error.response.data);
@@ -131,7 +132,7 @@ function TrashDetection() {
     const buttons = () =>{
         const upload = () =>{ if(state.upload) return uploadButton()}
         const download = () => { if(state.download) return downloadButton()}
-        if(state.download || state.upload)
+        if((state.download || state.upload) && !state.waiting)
         {
             return (
                 <div className="d-flex align-self-center justify-content-center m-5">
@@ -159,6 +160,31 @@ function TrashDetection() {
             });               
     }
 
+    const spinner = () =>{
+
+        if(state.waiting)
+        {
+            return (
+                <div class="d-flex justify-content-center m-5">
+                    <div class="spinner-border" role="status">
+                        <span class="sr-only"></span>
+                    </div>
+                </div>
+            )
+        }
+        return <React.Fragment></React.Fragment>
+    }
+    const inputForm = () =>{
+        if (!state.waiting){
+            return (
+                <div className="d-flex align-self-center justify-content-center ml-5 mr-5">
+                     <input type="file" name="file" onChange={onChangeHandler}/>
+                </div>
+            )
+        }
+        return <React.Fragment></React.Fragment>
+    }
+
     return (
         <React.Fragment>
             
@@ -171,12 +197,10 @@ function TrashDetection() {
                 </div>
                 <div className="container rounded border border-2 shadow-lg bg-white p-3 m-3">
                    {previewImage()}
-                    <div className="d-flex align-self-center justify-content-center ml-5 mr-5">
-                     <input type="file" name="file" onChange={onChangeHandler}/>
-                    </div>
-
+                    {inputForm()}
                     {view_result()}
                     {buttons()}
+                    {spinner()}
                 </div>
                 </div>
                 </div>
