@@ -22,14 +22,14 @@ function SERPresentation() {
                   </em></p>
               <ul>
                 <li><strong> Framework/Library : </strong>Tensorflow  &nbsp;
-                <a href="https://www.tensorflow.org/"> 
+                <a target="_blank" href="https://www.tensorflow.org/"> 
                 <i className="bi bi-eye"></i> </a> </li>
                 <li><strong> Model : </strong> 1D CNN + TimeDistributed layer</li>
                 <li><strong> Accuracy : </strong> 70%</li>
                 
               </ul>
-              <a href="https://data-colab-tn.medium.com/speech-emotion-recognition-f4b45f3fbfa5" type="button" className="btn btn-outline-myinfo m-1" target="_blank">View Article</a>
-              <a href="https://github.com/Mo5mami/SER" type="button" className="btn btn-outline-myinfo m-1" target="_blank">View Repo</a>
+              <a target="_blank" href="https://data-colab-tn.medium.com/speech-emotion-recognition-f4b45f3fbfa5" type="button" className="btn btn-outline-myinfo m-1" target="_blank">View Article</a>
+              <a target="_blank" href="https://github.com/Mo5mami/SER" type="button" className="btn btn-outline-myinfo m-1" target="_blank">View Repo</a>
             </div>
             </div>
             <div className="col-lg-6 my-auto">

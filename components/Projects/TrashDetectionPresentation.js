@@ -16,19 +16,19 @@ function TrashDetectionPresentation() {
                 </em></p>
                 <p><em>
                 In this project, I finetuned an object detection model on TACO &nbsp;
-                <a href="http://tacodataset.org/"> 
+                <a target="_blank" href="http://tacodataset.org/"> 
                 <i className="bi bi-eye"></i> </a>
                 : an open image dataset
                 Containing annotations
                   </em></p>
               <ul>
                 <li><strong> Framework : </strong>detectron2  &nbsp;
-                <a href="https://github.com/facebookresearch/detectron2"> 
+                <a target="_blank" href="https://github.com/facebookresearch/detectron2"> 
                 <i className="bi bi-eye"></i> </a> </li>
                 <li><strong> Model : </strong> R101-FPN</li>
                 <li><strong> AP@50 : </strong> 28</li>
                 <li><strong> Serving Tool : </strong> TorchServe &nbsp;
-                <a href="https://pytorch.org/serve/"> 
+                <a target="_blank" href="https://pytorch.org/serve/"> 
                 <i className="bi bi-eye"></i> </a> </li>
               </ul>
               <Link href="/trash-detection">
