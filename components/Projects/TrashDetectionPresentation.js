@@ -26,7 +26,7 @@ function TrashDetectionPresentation() {
                 <a href="https://github.com/facebookresearch/detectron2"> 
                 <i className="bi bi-eye"></i> </a> </li>
                 <li><strong> Model : </strong> R101-FPN</li>
-                <li><strong> AP@50 : </strong> 30.71</li>
+                <li><strong> AP@50 : </strong> 28</li>
                 <li><strong> Serving Tool : </strong> TorchServe &nbsp;
                 <a href="https://pytorch.org/serve/"> 
                 <i className="bi bi-eye"></i> </a> </li>

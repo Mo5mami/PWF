@@ -1,4 +1,5 @@
 import React from 'react'
+import PersonalWebsitePresentation from './PersonalWebsitePresentation'
 import SERPresentation from './SERPresentation'
 import TrashDetectionPresentation from './TrashDetectionPresentation'
 
@@ -13,6 +14,7 @@ function Projects() {
             </div>
             <SERPresentation></SERPresentation>
             <TrashDetectionPresentation></TrashDetectionPresentation>
+            <PersonalWebsitePresentation></PersonalWebsitePresentation>
             </div>
           </section>
 

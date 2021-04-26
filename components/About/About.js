@@ -10,8 +10,9 @@ function About() {
           <h2>About</h2>
           <p>
           This is Mokhtar Mami's Personal Website <br></br>
-          The <b>main</b> aim of this web app is to deliver projects to PRODUCTION <br></br>
-          Happy browsing
+          The <b>main</b> aim of this web app is <strong>to serve as a portfolio</strong>, <strong>to showcase my projects</strong> and <strong>to deliver some projects to PRODUCTION</strong> <br></br>
+          If the deployment <strong>isn't working</strong> or <strong>slow</strong>, either my credits are over or the servers are naturally slow <strong>(Student credits)</strong><br></br>
+          <strong><em>Happy browsing</em></strong>
           </p>
         </div>
 
@@ -35,7 +36,10 @@ function About() {
               <div className="col-lg-12">
                 <ul>
                   <li><i className="bi bi-chevron-right"></i> <strong>Address:</strong> <span>Farhat Hached Street 8050 Hammamet</span></li>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>mami.mokhtar123@gmail.com</span></li>
+                  <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> 
+                  <span>mami.mokhtar123@gmail.com<br></br>
+                  mokhtar.mami@insat.u-carthage.tn</span>
+                  </li>
                 </ul>
               </div>
               <div className="col-lg-6">
