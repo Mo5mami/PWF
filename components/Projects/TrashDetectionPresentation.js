@@ -34,6 +34,7 @@ function TrashDetectionPresentation() {
               <Link href="/trash-detection">
                 <a target="_blank" type="button" className="btn btn-outline-myinfo">Test It Out</a>
               </Link>
+              <a target="_blank" href="https://github.com/Mo5mami/trash-detection" type="button" className="btn btn-outline-myinfo m-1" target="_blank">View Repo</a>
             </div>
             </div>
             <div className="col-lg-6">
