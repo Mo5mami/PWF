@@ -35,6 +35,11 @@ function TrashDetection() {
         setstate({...state,originalFile: event.target.files[0],upload:true ,download : false})
     }
     
+    /*useEffect(() => {
+        api.ping().catch(
+            (err) =>{console.log("error : ",err)}
+            )
+    } , []);*/
 
     const onClickUpload = () => {
         handleOpen()
